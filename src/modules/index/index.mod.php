@@ -236,8 +236,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 row-title">
-                <h4>Pricing the Priceless</h4>
-                <h5>Best prices ever for Search and Register your Domain name!</h5>
+                <h4><?php echo t('pricing_the_priceless');?></h4>
+                <h5><?php echo t('pricing_the_priceless_message');?></h5>
             </div>
         </div>
         <div class="row">
@@ -380,6 +380,7 @@
         </div>
     </div>
 </div>
+<!--
 <div id="reasons" class="container-fluid">
     <div class="container">
         <div class="row">
@@ -408,6 +409,8 @@
         </div>
     </div>
 </div>
+-->
+<!--
 <div id="testimonials" class="container-fluid">
     <div class="container">
         <div class="row text-center">
@@ -450,13 +453,13 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <div id="footer" class="container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 row-title">
                 <h4>Get in touch</h4>
-                <h5>You’re a step further to make the best desicion</h5>
+                <h5>You’re a step further to make the best decision</h5>
             </div>
         </div>
         <div class="row main-footer-content">

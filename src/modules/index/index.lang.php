@@ -31,6 +31,8 @@ $lang['en'] = [
     'fast_rocket_p2' => 'Forget the limits and go beyond with our advanced servers and network structure.',
     'start_your_building' => 'Start building your website today!',
     'starting_from' => 'Starting from',
+    'pricing_the_priceless' => 'Pricing the Priceless',
+    'pricing_the_priceless_message' => 'Best prices ever for Search and Register your Domain name!',
 ];
 
 $lang['es'] = [
@@ -64,4 +66,6 @@ $lang['es'] = [
     'fast_rocket_p2' => 'Olvídese de los límites y ve más allá con nuestros avanzados servidores de última generación y redes perfectamente estructuradas.',
     'start_your_building' => 'Comience construyendo su sitio web hoy mismo',
     'starting_from' => 'Desde',
+    'pricing_the_priceless' => 'Precios increíbles',
+    'pricing_the_priceless_message' => 'Los mejores precios para buscar y registrar su nombre de dominio.',
 ];
