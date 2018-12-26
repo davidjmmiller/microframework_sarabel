@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-    <title>Hostrocket</title>
+    <title>Hosting z506</title>
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="/css/slick.css">
@@ -130,12 +130,10 @@
             <div class="col-xs-12">
                 <div class="info-title-icon">
                     <i class="hroc hroc-transport"></i>
-                    <div>Fast as rocket</div>
+                    <div><?php echo t('fast_rocket');?></div>
                 </div>
                 <div class="info-text">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-                    et quas molestias excepturi sint occaecati cupiditate.
+                    <?php echo t('tangible_improvements_message');?>
                 </div>
             </div>
         </div>
@@ -147,11 +145,10 @@
             <div class="col-xs-12">
                 <div class="info-title-icon">
                     <i class="hroc hroc-technology"></i>
-                    <div>Ideas to life</div>
+                    <div><?php echo t('ideas_to_life');?></div>
                 </div>
                 <div class="info-text">
-                    Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-                    et quas molestias excepturi sint occaecati cupiditate at vero eos et accusamus et iusto odio dignissimos ducimus qui.
+                    <?php echo t('ideas_to_life_message');?>
                 </div>
             </div>
         </div>
@@ -163,12 +160,10 @@
             <div class="col-xs-12">
                 <div class="info-title-icon">
                     <i class="hroc hroc-search"></i>
-                    <div>Discover Hostrocket</div>
+                    <div><?php echo t('discover_hosting_506');?></div>
                 </div>
                 <div class="info-text">
-                    Praesentium voluptatum deleniti atque corrupti quos dolores
-                    et quas molestias excepturi sint occaecati at vero eos et accusamus et iusto odio dignissimos ducimus qui
-                    blanditiis cupiditate.
+                    <?php echo t('discover_hosting_506_message');?>
                 </div>
             </div>
         </div>
@@ -178,8 +173,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 row-title">
-                <h4>Hostrocket features</h4>
-                <h5>A wide range of amazing info for your satisfaction</h5>
+                <h4><?php echo t('hosting_features');?></h4>
+                <h5><?php echo t('hosting_features_message');?></h5>
             </div>
         </div>
         <div class="row feature-row rtl-row">
@@ -187,13 +182,13 @@
                 <img class="feature-image" src="/images/feature1.png">
             </div>
             <div class="col-sm-12 col-md-7">
-                <div class="feature-title">Security Guaranteed.</div>
-                <div class="feature-subtitle">Get Started Quickly & Easily</div>
+                <div class="feature-title"><?php echo t('security_guaranteed');?></div>
+                <div class="feature-subtitle"><?php echo t('security_guaranteed_subtitle');?></div>
                 <div class="feature-text">
-                    <p>Hostrocket network covers +250 countries and devices ranging from desktops and laptops to smart phones and tablets.</p>
-                    <p>As an advertiser you'll get instant access to an intuitive and easy-to-use self-serve interface and have +1 billion users a click away. Choose between a variety of advanced targeting options and set up conversion tracking to keep full control of your ROI</p>
+                    <p><?php echo t('security_guaranteed_p1');?></p>
+                    <p><?php echo t('security_guaranteed_p2');?></p>
                 </div>
-                <a class="feature-button" href="#">Select plan</a>
+                <a class="feature-button" href="#"><?php echo t('select_plan');?></a>
             </div>
         </div>
         <div class="row feature-row">
@@ -201,14 +196,14 @@
                 <img class="feature-image" src="/images/feature2.png">
             </div>
             <div class="col-sm-12 col-md-7">
-                <div class="feature-title">Fast as rocket.</div>
-                <div class="feature-subtitle">Get Started Quickly & Easily</div>
+                <div class="feature-title"><?php echo t('fast_rocket_h1');?></div>
+                <div class="feature-subtitle"><?php echo t('fast_rocket_h2');?></div>
                 <div class="feature-text">
-                    <p>Hostrocket network covers +250 countries and devices ranging from desktops and laptops to smart phones and tablets.</p>
+                    <p><?php echo t('fast_rocket_p1');?></p>
 
-                    <p>As an advertiser you'll get instant access to an intuitive and easy-to-use self-serve interface and have +1 billion users a click away. Choose between a variety of advanced targeting options and set up conversion tracking to keep full control of your ROI</p>
+                    <p><?php echo t('fast_rocket_p2');?></p>
                 </div>
-                <a class="feature-button" href="#">Select plan</a>
+                <a class="feature-button" href="#"><?php echo t('select_plan');?></a>
             </div>
         </div>
     </div>
@@ -217,7 +212,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sx-12 col-md-6">
-                <h4>Start building your website today!</h4>
+                <h4><?php echo t('start_your_building');?></h4>
             </div>
             <div class="col-sx-12 col-md-3">
                 <div class="price-holder">
@@ -225,14 +220,14 @@
                     <div class="number">
                         <div class="num-big">3</div>
                         <div class="num-small-holder">
-                            <div class="plan-info">Starting From</div>
-                            <div class="num-small">.38<div class="duration">/mo</div></div>
+                            <div class="plan-info"><?php echo t('starting_from');?></div>
+                            <div class="num-small">.38<div class="duration">/m</div></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-sx-12 col-md-3">
-                <a class="plan-button" href="#">Select plan</a>
+                <a class="plan-button" href="#"><?php echo t('select_plan');?></a>
             </div>
         </div>
     </div>
